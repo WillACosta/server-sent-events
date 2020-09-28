@@ -1,0 +1,12 @@
+{
+  "name": "server-sent-events",
+  "version": "1.0.0",
+  "description": "Demonstração simples do funcionamento da tecnologia Server-Sent Events em um servidor local escrito com Node.js e Express.",
+  "main": "index.js",
+  "scripts": {},
+  "author": "William.A",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
