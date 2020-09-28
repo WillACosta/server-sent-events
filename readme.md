@@ -1,6 +1,6 @@
 # JavaScript Server-Sent Events
 
-    Demonstração simples do funcionamento da tecnologia Server-Sent Events em um servidor local escrito com Node.js e Express.
+Demonstração simples do funcionamento da tecnologia Server-Sent Events em um servidor local escrito com Node.js e Express.
 
 ## Características
 
@@ -11,12 +11,12 @@
 
 - Diferentemente da técnica 'Pooling' na qual o cliente acessa constantemente o servidor em busca de novas informações.
 
-- Menos tráfego de rede do que no AJAX Pooling.
+- Menos tráfego de rede que o AJAX Pooling.
 
-## Forma de usar
+## Execução
 
 - Em um terminal de sua preferência:
-  - Navegue para a pasta do projeto.
-  - Instale as dependências com `npm install`.
-  - Inicie o servidor local com `node server.js`.
-  - Use o lite-server ver o projeto em ação com `npx lite-server`.
+  - Navegue para a pasta do projeto
+  - Instale as dependências com `npm install`
+  - Inicie o servidor local com `node server.js`
+  - Use o lite-server para ver o projeto em ação com `npx lite-server`
