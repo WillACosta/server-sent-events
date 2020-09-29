@@ -38,7 +38,7 @@ app.get("/subscribe/:id", (req, res) => {
 
     console.log(companies); // Exibir o objeto com todos os canais
 
-    globalVersion ++;
+    globalVersion++;
 
     res.status(200).json({
         "Mensagem": `Inscrito em ${req.params.id}`
@@ -73,6 +73,6 @@ app.listen(4000, err => {
         console.log("Erro ao executar o servidor!");
         return;
     } else {
-        console.log("Servidor ativo na porta 4000.")
+        console.log("Servidor executando em 127.0.0.1:4000!");
     }
 });

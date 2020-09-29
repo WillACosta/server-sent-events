@@ -19,4 +19,4 @@ Demonstração simples do funcionamento da tecnologia Server-Sent Events em um s
   - Navegue para a pasta do projeto
   - Instale as dependências com `npm install`
   - Inicie o servidor local com `node server.js`
-  - Use o lite-server para ver o projeto em ação com `npx lite-server`
+  - Abra uma janela no navegador no endereço `127.0.0.1:4000`

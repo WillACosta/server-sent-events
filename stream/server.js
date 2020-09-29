@@ -1,7 +1,14 @@
-const app = require('express')();
+const express = require('express');
+const app = express();
+
+const fs = require('fs');
+const path = require('path');
+
+app.use(express.static('public'));
 
 app.get('/', (req, res) => {
-    res.send("Servidor em execução!");
+    var html = fs.readFileSync(path.join(__dirname, "index.html"), "utf8");
+    res.status(200).send(html);
 });
 
 app.get('/stream', (req, res) => {
@@ -17,5 +24,12 @@ function send(res) {
     setTimeout(() => send(res), 1000);
 }
 
-app.listen(4000);
-console.log("Servidor ativo em 127.0.0.1:4000");
+// ##############################
+app.listen(4000, err => {
+    if (err) {
+        console.log("Erro ao executar o servidor!");
+        return;
+    } else {
+        console.log("Servidor executando em 127.0.0.1:4000!");
+    }
+});
