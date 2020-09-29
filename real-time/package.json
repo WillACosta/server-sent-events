@@ -1,0 +1,14 @@
+{
+  "name": "sse-node",
+  "version": "1.0.0",
+  "description": "Demonstração simples do funcionamento da tecnologia Server-Sent Events em um servidor local escrito com Node.js e Express.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "William.A",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

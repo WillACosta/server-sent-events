@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SSE - Node.JS</title>
+
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <h1>Server-Sent Events</h1>
+
+        <div id="ch1" class="channel">
+            <div class="name">Canal #1</div>
+            <div class="subscribers">0</div>
+            <button onclick="subscribe('ch1')">
+                Inscrever
+            </button>
+        </div>
+        <div id="ch2" class="channel">
+            <div class="name">Canal #2</div>
+            <div class="subscribers">0</div>
+            <button onclick="subscribe('ch2')">
+                Inscrever
+            </button>
+        </div>
+        <div id="ch3" class="channel">
+            <div class="name">Canal #3</div>
+            <div class="subscribers">0</div>
+            <button onclick="subscribe('ch3')">
+                Inscrever
+            </button>
+        </div>
+    </div>
+</body>
+
+<script src="scripts.js"></script>
+
+</html>
